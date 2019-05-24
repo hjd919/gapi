@@ -8,10 +8,10 @@ import (
 	"path"
 	"strings"
 
-	"wxgame_admin/api/pkg/file"
-	"wxgame_admin/api/pkg/logging"
-	"wxgame_admin/api/pkg/setting"
-	"wxgame_admin/api/pkg/util"
+	"github.com/hjd919/gapi/pkg/file"
+	"github.com/hjd919/gapi/pkg/logging"
+	"github.com/hjd919/gapi/pkg/setting"
+	"github.com/hjd919/gapi/pkg/util"
 )
 
 // GetImageFullUrl get the full access path

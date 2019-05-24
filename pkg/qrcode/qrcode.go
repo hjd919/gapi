@@ -6,9 +6,9 @@ import (
 	"github.com/boombuler/barcode"
 	"github.com/boombuler/barcode/qr"
 
-	"wxgame_admin/api/pkg/file"
-	"wxgame_admin/api/pkg/setting"
-	"wxgame_admin/api/pkg/util"
+	"github.com/hjd919/gapi/pkg/file"
+	"github.com/hjd919/gapi/pkg/setting"
+	"github.com/hjd919/gapi/pkg/util"
 )
 
 type QrCode struct {

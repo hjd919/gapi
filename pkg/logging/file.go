@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"wxgame_admin/api/pkg/setting"
+	"github.com/hjd919/gapi/pkg/setting"
 )
 
 // getLogFilePath get the log file save path

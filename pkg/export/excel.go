@@ -1,6 +1,6 @@
 package export
 
-import "wxgame_admin/api/pkg/setting"
+import "github.com/hjd919/gapi/pkg/setting"
 
 const EXT = ".xlsx"
 

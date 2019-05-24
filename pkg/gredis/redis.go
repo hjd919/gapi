@@ -6,7 +6,7 @@ import (
 
 	"github.com/gomodule/redigo/redis"
 
-	"wxgame_admin/api/pkg/setting"
+	"github.com/hjd919/gapi/pkg/setting"
 )
 
 var RedisConn *redis.Pool

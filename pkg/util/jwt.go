@@ -4,7 +4,7 @@ import (
 	"github.com/dgrijalva/jwt-go"
 	"time"
 
-	"wxgame_admin/api/pkg/setting"
+	"github.com/hjd919/gapi/pkg/setting"
 )
 
 var jwtSecret = []byte(setting.AppSetting.JwtSecret)

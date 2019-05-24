@@ -3,7 +3,7 @@ package app
 import (
 	"github.com/astaxie/beego/validation"
 
-	"wxgame_admin/api/pkg/logging"
+	"github.com/hjd919/gapi/pkg/logging"
 )
 
 // MarkErrors logs error logs

@@ -4,7 +4,7 @@ import (
 	"github.com/Unknwon/com"
 	"github.com/gin-gonic/gin"
 
-	"wxgame_admin/api/pkg/setting"
+	"github.com/hjd919/gapi/pkg/setting"
 )
 
 // GetPage get page parameters

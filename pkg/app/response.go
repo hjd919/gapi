@@ -3,7 +3,7 @@ package app
 import (
 	"github.com/gin-gonic/gin"
 
-	"wxgame_admin/api/pkg/e"
+	"github.com/hjd919/gapi/pkg/e"
 )
 
 type Gin struct {

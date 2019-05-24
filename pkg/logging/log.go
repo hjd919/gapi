@@ -2,7 +2,7 @@ package logging
 
 import (
 	"fmt"
-	"wxgame_admin/api/pkg/file"
+	"github.com/hjd919/gapi/pkg/file"
 	"log"
 	"os"
 	"path/filepath"

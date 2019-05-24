@@ -1,11 +1,12 @@
 package app
 
 import (
-	"github.com/astaxie/beego/validation"
-	"github.com/gin-gonic/gin"
 	"net/http"
 
-	"wxgame_admin/api/pkg/e"
+	"github.com/astaxie/beego/validation"
+	"github.com/gin-gonic/gin"
+
+	"github.com/hjd919/gapi/pkg/e"
 )
 
 // BindAndValid binds and validates data
