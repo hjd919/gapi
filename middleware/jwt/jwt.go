@@ -2,8 +2,9 @@ package jwt
 
 import (
 	"net/http"
-	"vote_api/pkg/e"
-	"vote_api/pkg/util"
+
+	"github.com/hjd919/gapi/pkg/e"
+	"github.com/hjd919/gapi/pkg/util"
 
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"
