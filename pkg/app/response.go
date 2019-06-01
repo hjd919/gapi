@@ -44,7 +44,7 @@ func (g *Gin) Res(data interface{}, code int) {
 }
 
 // Response setting gin.JSON
-func (g *Gin) ResSuccess(data interface{}) {
+func (g *Gin) Success(data interface{}) {
 	g.C.JSON(http.StatusOK, Response{
 		Code: 200,
 		Msg:  "",
@@ -54,7 +54,7 @@ func (g *Gin) ResSuccess(data interface{}) {
 }
 
 // Response setting gin.JSON
-func (g *Gin) ResError(msg string, code int) {
+func (g *Gin) Error(msg string, code int) {
 	g.C.JSON(http.StatusOK, Response{
 		Code: code,
 		Msg:  msg,
