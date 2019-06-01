@@ -47,7 +47,7 @@ func (g *Gin) Res(data interface{}, code int) {
 func (g *Gin) ResSuccess(data interface{}) {
 	g.C.JSON(http.StatusOK, Response{
 		Code: 200,
-		Msg:  nil,
+		Msg:  "",
 		Data: data,
 	})
 	return
